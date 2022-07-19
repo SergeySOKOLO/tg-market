@@ -1,0 +1,20 @@
+.h1 {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 112.2%;
+    color: #FFFFFF;
+    padding-top: 270px;
+    padding-bottom: 30px;
+}
+
+.text {
+    font-family: 'Cera Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 141.7%;
+    color: #FFFFFF;
+    padding-bottom: 55px;
+}
