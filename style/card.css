@@ -1,0 +1,110 @@
+.popular .h2 {
+    color: #141414;
+}
+
+.card .h4 {
+    color: #141414;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.card {    
+    width: 373px;
+    height: 296px;
+    background: #FFFFFF;
+    border-radius: 23px;
+}
+
+.card:hover {
+    box-shadow: 0px 2px 98px rgba(0, 0, 0, 0.38);
+    transition: 0.4s;
+} 
+
+.card__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.card__header {
+    padding-top: 22px;
+}
+
+.card__header-avatar {
+    float: left;
+    padding: 0 19px 19px 28px;
+}
+
+.card__header-text {
+    padding-top: 16px;
+}
+
+.card__header-people {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #141414;
+    margin: 0;
+}
+
+.card__header-people span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #C5D1DC;
+}
+
+
+.card__header-people span:hover {
+    color: #8294A5;
+    transition: 0.7s;
+} 
+
+.card__header-people:hover {
+    font-weight: 600;
+}
+
+.card__content {
+    float: left;
+    padding-left: 28px;
+    width: 276px;
+    height: 72px;
+    margin-top: -25px;
+}
+
+.card__content-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #141414;
+}
+
+.card__footer {
+    float: left;
+    padding-left: 28px;
+    padding-top: 40px;
+}
+
+.button_small {
+    width: 146px;
+    height: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 152.7%;
+    color: #2BA0D2;
+    border: none;
+    background-color: white;
+} 
+
+.card:hover .button_small {
+    width: 146px;
+    height: 54px;
+    border: 1px solid #2BA0D2;
+    border-radius: 9px;
+    transition: 0.4s;
+}

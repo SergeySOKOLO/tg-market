@@ -1,0 +1,23 @@
+.button {
+    height: 68px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 152.7%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 15px;
+    padding: 0 37px;
+}
+
+.button_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 152.7%;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #B6E1FF;
+}

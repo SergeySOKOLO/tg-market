@@ -1,20 +1,28 @@
 .h1 {
-    font-family: 'Cera Pro';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 112.2%;
-    color: #FFFFFF;
-    padding-top: 270px;
-    padding-bottom: 30px;
 }
 
 .text {
-    font-family: 'Cera Pro';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 141.7%;
-    color: #FFFFFF;
-    padding-bottom: 55px;
+}
+
+.h2 {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 147.2%;
+}
+
+.h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
 }

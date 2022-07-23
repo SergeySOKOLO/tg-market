@@ -18,58 +18,19 @@
     font-style: normal;
 }
 
+* {
+    font-family: 'Cera Pro';
+}
+
 .container {
     max-width: 1160px;
     height: 100%;
     margin: 0 auto;
 }
 
-.promo__container {
-    display: flex;
-}
-
 .phone {
-    width: 580.5px;
-    height: 714.5px;
-    padding-top: 190.5px;
-    left: 0;
-}
-
-.button {
-    width: 270px;
-    height: 68px;
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 152.7%;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #195168;
-    border: none;
-    border-radius: 15px;
-}
-
-.button_link {
-    font-family: 'Cera Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 152.7%;
-    letter-spacing: 0.1em;
-    text-decoration-line: underline;
-    text-transform: uppercase;
-    color: #B6E1FF;
-    padding-left: 44px;
-}
-
-.promo__text-container {
-    padding-left: 60px;
-}
-
-.arrows {
-    height: 52px;
-    padding-top: 810px;
+    width: 451.5px;
+    height: 544.5px;
 }
 
 /* @import './menu.css'; */
