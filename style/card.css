@@ -1,5 +1,7 @@
 .popular .h2 {
     color: #141414;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 
 .card .h4 {
@@ -16,8 +18,8 @@
 }
 
 .card:hover {
-    box-shadow: 0px 2px 98px rgba(0, 0, 0, 0.38);
-    transition: 0.4s;
+    box-shadow: 0px 2px 98px rgba(227, 232, 238, 0.38);
+    transition: 0.3s;
 } 
 
 .card__container {
@@ -40,6 +42,10 @@
     padding-top: 16px;
 }
 
+.people__icon {
+    padding-right: 7px;
+}
+
 .card__header-people {
     font-style: normal;
     font-weight: 400;
@@ -55,16 +61,18 @@
     font-size: 16px;
     line-height: 20px;
     color: #C5D1DC;
+    cursor: pointer;
 }
 
 
 .card__header-people span:hover {
     color: #8294A5;
-    transition: 0.7s;
+    transition: 0.3s;
 } 
 
 .card__header-people:hover {
     font-weight: 600;
+    transition: 0.3s;
 }
 
 .card__content {
@@ -101,10 +109,14 @@
     background-color: white;
 } 
 
-.card:hover .button_small {
+.button_small:hover {
     width: 146px;
     height: 54px;
     border: 1px solid #2BA0D2;
     border-radius: 9px;
-    transition: 0.4s;
+    transition: 0.3s;
+}
+
+.telegram__icon {
+    padding-left: 13px;
 }

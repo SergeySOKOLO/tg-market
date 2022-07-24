@@ -1,0 +1,31 @@
+.telegrator {
+    margin-top: 84px;
+}
+
+.telegrator__wrapper {
+    padding-top: 25px;
+    display: flex;
+}
+
+.telegrator__clouds {
+    width: 875px;
+    height: 370.26px;
+    padding-top: 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+.telegrator__main-text {
+    width: 426px;
+    height: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #141414;
+    padding-bottom: 20px;
+}
+
+.telegrator__text-conteiner {
+    padding-left: 62px;
+}
