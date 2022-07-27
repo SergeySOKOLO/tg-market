@@ -1,0 +1,27 @@
+.telegrator {
+    margin-top: 84px;
+    position: relative;
+    .h2 {
+        margin-bottom: 45px;
+    } 
+    &__wrapper {
+        margin-top: 25px;
+        display: flex;
+    }
+    &__clouds {
+        position: absolute;
+        top: 130px;
+        z-index: -1;
+    }
+    &__text-container {
+        margin-left: 62px;
+    }
+    &__main-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #141414;
+        padding-bottom: 20px;
+    }
+}

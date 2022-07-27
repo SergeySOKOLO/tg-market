@@ -1,0 +1,47 @@
+.accordion {
+    min-height: 64px;
+    background-color: #fff;
+    box-shadow: 0px 2px 98px rgba(227, 232, 238, 0.38);
+    border-radius: 12px;
+    .accordion__content {
+        display: none;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
+    &_active {
+        .accordion__content {
+            display: block;
+        }
+        .accordion__arrow {
+            transform: rotate(-90deg);
+        }
+    }
+    &__header {
+        height: 64px;
+        display: grid;
+        grid-template-columns: 1fr 18fr 1fr;
+        gap: 24px;
+        align-items: center;
+        padding-left: 13px;
+    }
+    &__num {
+        width: 34px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(203.2deg, #37AEE2 21.67%, #1E96C8 70%);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 143.4%;
+        color: #FFFFFF;
+        border-radius: 100%;
+    }
+    &__content {
+        padding: 0 80px 25px;
+    }
+}

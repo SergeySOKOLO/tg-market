@@ -1,0 +1,45 @@
+.button {
+    height: 68px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 152.7%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    padding: 0 37px;
+    background: #FFFFFF;
+    :visited {
+        color: #2BA0D2;
+    }
+    &_link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 152.7%;
+        letter-spacing: 0.1em;
+        text-decoration-line: underline;
+        text-transform: uppercase;
+        color: #B6E1FF;
+    }
+    &_small {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 152.7%;
+        letter-spacing: 0px;
+        text-decoration: none;
+        text-transform: none;
+        color: #2BA0D2;
+        width: 96px;
+        height: 24px;
+        padding: 15px 25px;
+        border: 1px solid transparent;
+        border-radius: 9px;
+        transition: 0.3s all;
+        :hover {
+            border: 1px solid #2BA0D2;
+        }
+    } 
+}

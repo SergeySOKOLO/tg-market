@@ -1,0 +1,87 @@
+.popular .h2 {
+    color: #141414;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.card {    
+    width: 373px;
+    height: 296px;
+    background: #FFFFFF;
+    border-radius: 23px;
+    :hover {
+        box-shadow: 0px 2px 98px rgba(227, 232, 238, 0.38);
+        transition: 0.3s;
+    } 
+    .h4 {
+        color: #141414;
+        margin: 0;
+        padding-bottom: 8px;
+    }
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__header {
+        padding-top: 22px;
+    }
+    &__header-avatar {
+        float: left;
+        padding: 0 19px 19px 28px;
+    }
+    &__header-text {
+        padding-top: 16px;
+    }
+    &__content {
+        float: left;
+        padding-left: 28px;
+        width: 276px;
+        height: 72px;
+        margin-top: -25px;
+    }
+    &__content-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #141414;
+    }
+    &__footer {
+        float: left;
+        padding-left: 28px;
+        padding-top: 50px;
+    }
+    &__header-people {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #141414;
+        margin: 0;
+        :hover {
+            font-weight: 600;
+            transition: 0.3s;
+        }
+        span {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            color: #C5D1DC;
+            cursor: pointer;
+            :hover {
+                color: #8294A5;
+                transition: 0.3s;
+            } 
+        }
+    } 
+}
+
+.people__icon {
+    padding-right: 7px;
+}
+
+.telegram__icon {
+    padding-left: 13px;
+}

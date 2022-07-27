@@ -28,10 +28,18 @@
     margin: 0 auto;
 }
 
-.phone {
-    width: 451.5px;
-    height: 544.5px;
-}
+@import './main/normalize.css';
+@import './main/typography';
 
-/* @import './menu.css'; */
+@import './components/button';
+@import './components/menu';
+@import './components/accordion';
+@import './components/card';
+@import './components/categories';
+@import './components/category';
+@import './components/faq';
+@import './components/navigation';
+@import './components/promo';
+@import './components/telegrator';
+
 
